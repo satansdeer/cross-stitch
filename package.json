@@ -1,0 +1,20 @@
+{
+  "name": "cross-stitch",
+  "main": "index.html",
+  "window": {
+    "title": "node-webkit demo",
+    "icon": "link.png",
+    "toolbar": true,
+    "frame": true,
+    "width": 800,
+    "height": 800,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 800
+  },
+  "dependencies": {
+    "nearest-color": "~0.4.0"
+  }
+}

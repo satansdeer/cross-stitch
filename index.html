@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    <script src='main.js'></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <canvas class="cross-stitch-canvas" id="myCanvas" width="200px"></canvas>
+    <script>
+      var path = './';
+      var fs = require('fs');
+
+      fs.watch(path, function() {
+        if (location)
+        location.reload();
+      });
+    </script>
+  </body>
+</html>
